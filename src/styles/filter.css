@@ -1,0 +1,409 @@
+body{
+    margin:0;
+}
+.hading{
+    font-size: 36px;  
+    font-weight: bold;   
+    line-height: 1.53;    
+    color: #192f60;
+    margin-left:110px;
+    margin-top:30px;
+}
+.left-container{
+    display:inline-block;
+    background-color: #fff;
+    width: 290px;
+    height: 682px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    margin: 27px 45px 50px 113px;
+}
+.filters{
+    width: 55px;
+    height: 25px;  
+    margin:20px 0 0 25px;
+    font-size: 18px;  
+    font-weight: 600;  
+    color: #192f60;
+}
+.Select-Location {
+    width: 106px;  
+    height: 20px;  
+    margin: 10px 0 10px 25px;  
+    font-size: 14px;  
+    line-height: 1.5;   
+    color: #192f60;
+}
+.input-location{
+    height: 35px;  
+    margin: 11px 0 15px 25px;  
+    border-radius: 3px;  
+}
+select{
+    width:208px;
+    height: 35px;
+}
+.right-container{
+    display:inline-block;
+    vertical-align: top;
+    margin-top:27px;
+}
+.ruc{
+    background-color: #fff;
+    width: 794px;
+    height: 291px;  
+    box-shadow: 1px 2px 6px 4px rgba(39, 36, 36, 0.3);
+    display: block;  
+    margin-bottom: 30px;  
+}
+.image1{
+    display:inline-block;
+    margin:20px 0px 0px 40px;
+    text-align: center;
+}
+.set-border{
+    border-radius: 20px;
+    height:120px;
+    width:120px;
+}
+.details{
+    display: inline-block;
+    vertical-align: top;
+    margin:33px 0px 0px 25px;
+}
+.heading{
+    width: 280px;
+    height: 43px;   
+    font-size: 30px;  
+    font-weight: 600;  
+    line-height: 1.53;  
+    color: #192f60;
+}
+.sub-heading{
+    width: 110px;
+    height: 23px;    
+    font-size: 16px;   
+    line-height: 1.88;   
+    color: #192f60;
+}
+.address{
+    width: 365px;
+    height: 23px;   
+    font-size: 16px;  
+    line-height: 1.88;  
+    color: #636f88;
+}
+.line{
+    width: 90%; 
+    margin-left: 40px;  
+}
+.CUISINES-COST-FOR-TWO{
+    display:inline-block;
+    width: 140px;
+    height: 85px;  
+    margin: 20px 0 0 45px;    
+    font-size: 16px;  
+    line-height: 1.88;  
+    color: #636f88;
+}
+.Bakery-700{
+    display: inline-block;
+    width: 251px;
+    height: 85px;  
+    margin: 20px 0 0 22px;   
+    line-height: 1.88;  
+    color: #192f60;
+}
+.cuisine{
+    width: 95px;
+    height: 20px;  
+    margin: 25px 0 15px 25px;   
+    font-size: 14px;  
+    line-height: 1.5;  
+    color: #192f60;
+    font-weight: bold;
+}
+.food-items{
+    width: 120px;
+    height: 20px;  
+    margin: 0 0 10px 25px;  
+    font-size: 14px;  
+    color: #8c96ab;
+}
+
+.space{
+    width: 22px;
+    height: 14px;  
+    border-radius: 1.5px;  
+    border: solid 1.5px #3a5075;
+}
+.select-range{
+    margin-right:12px;
+    width: 14px;
+    height: 18px;  
+    border-radius: 50%;
+    border: solid 1.5px #3a5075;      
+}
+span{
+    margin-left:12px;
+}
+.rate{
+    width: 150px;
+    height: 20px;  
+    margin: 0 0 10px 25px;  
+    font-size: 14px;  
+    color: #8c96ab;
+}
+.price-direction{
+    width: 37px;
+    height: 25px;  
+    margin: 30px 0 15px 25px;   
+    font-size: 18px;  
+    font-weight: 600;  
+    line-height: 1.5;  
+    color: #192f60;
+}
+.select-one{
+    margin-right:12px;
+    width: 14px;
+    height: 18px;  
+    border-radius: 50%;
+    border: solid 1.5px #3a5075; 
+}
+.pagination{
+    margin:70px 0 40px 200px;
+}
+.page-number{
+    border:1px solid #8c96ab;
+    text-align: center;
+    height: 35px;
+    width:34px;
+    display: inline-block;
+    padding-top:3px;
+    border-radius: 10px;
+    margin:0 10px 0 0;
+    line-height: 1.5;
+}
+.norestaurantfound{
+    color:rgb(0, 255, 26);
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin:40px 0 0 200px;
+}
+
+@media only screen and (max-width:416px)
+{
+    .hading{
+        font-size: 27px;        
+        margin:30px 0 0 20px;
+    }
+    .left-container{
+        display:block;
+        margin: 27px 0 50px 50px;
+        padding-top:15px;
+    }
+    .right-container{
+        display:block;
+        margin-top:27px;
+    }
+    .ruc{
+        width: 350px;
+        height: 340px; 
+        margin-left:23px; 
+        box-shadow: 0 0 6px 7px rgba(0, 0, 0, 0.16);   
+    }
+    .image1{
+        margin:15px 0 0 120px;
+    }
+    .set-border{
+        height:100px;
+        width:100px;
+    }
+    .details{
+        margin:16px 0px 0px 23px;
+        width:295px;
+    }
+    .heading{
+        width: 295px;
+        height: 34px;   
+        font-size: 20px;  
+        text-align: center; 
+    }
+    .sub-heading{
+        width: 295px;
+        height: 23px;    
+        font-size: 14px;   
+    }
+    .address{
+        width: 320px;
+        height: 23px;   
+        font-size: 13px;  
+    }
+    .line{
+        width: 320px;
+        margin: 22px 0 0 14px;  
+    }
+    .CUISINES-COST-FOR-TWO{
+        width: 110px;
+        height: 65px;  
+        margin-left:25px;    
+        font-size: 14px;   
+    }
+    .Bakery-700{
+        width: 185px;
+        height: 58px;  
+        margin: 14px 0 0 10px;   
+    }   
+    .food-items{
+        width: 150px;  
+    } 
+    .cuisine{
+        width: 95px;   
+    }
+    .pagination{
+        margin:50px 0 26px 50px;
+    }
+    .page-number{
+        margin-right:10px;
+    }
+}
+
+@media only screen and (min-width:417px) and (max-width:616px) 
+{
+    .hading{
+        font-size: 34px;        
+        margin:30px 0 0 80px;
+    }
+    .left-container{
+        display:block;
+        margin: 27px 0 50px 140px;
+        padding-top:15px;
+    }
+    .right-container{
+        display:block;
+        margin-top:27px;
+    }
+    .ruc{
+        width: 550px;
+        height: 260px; 
+        margin-left:23px; 
+        box-shadow: 0 0 6px 7px rgba(0, 0, 0, 0.16);   
+    }
+    .image1{
+        margin:15px 0 0 40px;
+    }
+    .set-border{
+        height:100px;
+        width:100px;
+    }
+    .details{
+        margin:16px 0px 0px 23px;
+        width:295px;
+    }
+    .heading{
+        width: 360px;
+        height: 40px;   
+        font-size: 27px;   
+    }
+    .sub-heading{
+        width: 360px;
+        height: 27px;    
+        font-size: 17px;   
+    }
+    .address{
+        width: 360px;
+        height: 23px;   
+        font-size: 17px;  
+    }
+    .line{
+        width: 508px;
+        margin: 22px 0 0 14px;  
+    }
+    .CUISINES-COST-FOR-TWO{
+        width: 140px;
+        height: 65px;  
+        margin-left:25px;    
+        font-size: 17px;   
+    }
+    .Bakery-700{
+        width: 185px;
+        height: 58px;  
+        margin: 14px 0 0 37px;   
+    }    
+    .pagination{
+        margin:50px 0 26px 114px;
+    }
+    .page-number{
+        margin-right:10px;
+    }
+}
+
+@media only screen and (min-width:617px) and (max-width:785px) 
+{
+    .hading{
+        font-size: 36px;        
+        margin:30px 0 0 144px;
+    }
+    .left-container{
+        display:block;
+        margin: 27px 0 50px 220px;
+        padding-top:15px;
+    }
+    .right-container{
+        display:block;
+        margin-top:27px;
+    }
+    .ruc{
+        width: 690px;
+        height: 291px; 
+        margin-left:23px; 
+        box-shadow: 0 0 6px 7px rgba(0, 0, 0, 0.16);   
+    }
+    .image1{
+        margin:20px 0 0 40px;
+    }
+    .set-border{
+        height:110px;
+        width:110px;
+    }
+    .details{
+        margin:23px 0px 0px 30px;
+        width:490px;
+    }
+    .heading{
+        width: 490px;
+        height: 43px;   
+        font-size: 30px;   
+    }
+    .sub-heading{
+        width: 490px;
+        height: 27px;    
+        font-size: 17px;   
+    }
+    .address{
+        width: 490px;
+        height: 23px;   
+        font-size: 17px;  
+    }
+    .line{
+        width: 640px;
+        margin: 22px 0 0 25px;  
+    }
+    .CUISINES-COST-FOR-TWO{
+        width: 140px;
+        height: 85px;  
+        margin-left:45px;    
+        font-size: 17px;   
+    }
+    .Bakery-700{
+        width: 185px;
+        height: 62px;  
+        margin: 24px 0 0 50px;   
+    }    
+    .pagination{
+        margin:50px 0 26px 195px;
+    }
+    .page-number{
+        margin-right:10px;
+    }
+}

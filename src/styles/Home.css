@@ -1,0 +1,358 @@
+body{
+    margin:0;
+}
+.homebackground{
+    width:100%;
+    height:500px;
+}
+.logo{
+    background-color: #fff;
+    width: 114px; height: 114px;
+    top:20%; left:45%;
+    position: absolute;
+    border-radius: 50%;
+}
+.text{
+    text-align: center;
+    font-size: 67px;
+    color:rgb(243, 37, 37);
+    font-family: sans-serif;
+    margin-top: 9px;
+}
+.text-heading{
+    position: absolute;
+    height:40px;
+    top:40%; left:26%;
+}
+.style-text{
+    font-family: sans-serif;
+    font-size: 35px;
+    color:#fff;
+}
+.select-city{
+    position: absolute;
+    top:50%; left:26%;
+}
+.select-loc{
+    width:278px; height:48px;
+    display: inline-block;
+    margin:10px 12px 0 0;
+    padding-left: 20px;
+}
+.search-res{
+    width:385px; height:48px;
+    padding-left:43px;
+}
+.res-search{
+    display:inline-block;
+}
+.icon-of-search{
+    position: absolute;
+    margin:10px 0 0 10px;
+    font-size: 24px;
+    color:rgb(206, 206, 206);
+}
+.list-items{
+    background-color: #fff;
+    color:black;
+    list-style-type: none;
+}
+.lists:hover{
+    background-color: rebeccapurple;
+    color:#fff;
+}
+.contents{
+    background-color: rgb(250, 250, 250);
+}
+.quick-head{
+    color:#192f60;
+}
+.quick-para{
+    color:#8c96ab;
+    font-size: 20px;
+}
+.quick-searches{
+    padding-top:18px;
+    margin-left: 70px;
+}
+.containers{
+    width:90%;
+    margin: auto;
+}
+.items{
+    display:inline-block;
+    width:30%;
+    background-color: #fff;
+    margin:10px 30px 23px 0;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.image{
+    width:160px; height:150px;
+    float: left;
+    padding:3px 0 3px 3px;
+    border-radius: 10px;
+}
+.head-color{
+    text-align: center;
+    color:#192f60;
+    line-height: 2;
+}
+.para-color{
+    color:#8c96ab;
+    text-align:center;
+}
+
+/* media queries here */
+
+@media only screen and (max-width:416px)
+{
+    .homebackground
+    {
+        height:400px;
+    }
+    .logo{
+        width: 85px; height: 85px;
+        top:15%; left:39%;
+    }
+    .text{
+        font-size: 46px;
+        margin-top: 9px;
+    }
+    .text-heading{
+        height:28px;
+        top:32%; left:4%;
+    }
+    .style-text{
+        font-size: 19px;
+        color:#fff;
+    }
+    .select-city{
+        top:40%; left:20%;
+    }
+    .select-loc{
+        width:263px; height:40px;
+        margin-bottom: 12px;
+        padding-left: 20px;
+    }
+    .search-res{
+        width:262px; height:40px;
+        padding-left:43px;
+    }
+    .icon-of-search{
+        margin:10px 0 0 10px;
+        font-size: 22px;
+        color:rgb(206, 206, 206);
+    }
+    .quick-para{
+        font-size: 18px;
+    }
+    .quick-head{
+        font-size: 28px;
+    }
+    .quick-searches{
+        padding-top:16px;
+        margin-left: 40px;
+    }
+    .containers{
+        width:85%;
+    }    
+    .items{
+        width:100%;
+        margin:10px 0 23px 0;
+    }
+    .image{
+        width:140px;  height:130px;
+    }
+    .head-color{
+        font-size:20px;
+    }
+    .para-color{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width:417px) and (max-width:616px)
+{
+    .logo{
+        width: 95px; height: 95px;
+        top:21%; left:43%;
+    }
+    .text{
+        font-size: 55px;
+        margin-top: 8px;
+    }
+    .text-heading{
+        height:36px;
+        top:39%; left:5%;
+    }
+    .style-text{
+        font-size: 28px;
+        color:#fff;
+    }
+    .select-city{
+        top:49%; left:24%;
+    }
+    .select-loc{
+        width:309px; height:40px;
+        margin-bottom: 12px;
+        padding-left: 20px;
+    }
+    .search-res{
+        width:310px; height:40px;
+        padding-left:43px;
+    }
+    .icon-of-search{
+        margin:10px 0 0 10px;
+        font-size: 22px;
+        color:rgb(206, 206, 206);
+    }
+    .quick-para{
+        font-size: 20px;
+    }
+    .quick-head{
+        font-size: 31px;
+    }
+    .quick-searches{
+        padding-top:16px;
+        margin-left: 58px;
+    }
+    .containers{
+        width:85%;
+    }    
+    .items{
+        width:100%;
+        margin:10px 0 23px 0;
+    }
+    .image{
+        width:160px; height:150px;
+    }
+    .head-color{
+        font-size:29px;
+    }
+    .para-color{
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width:617px) and (max-width:785px)
+{
+    .logo{
+        width: 100px; height: 100px;
+        top:21%; left:44%;
+    }
+    .text{
+        font-size: 60px;
+        margin-top: 8px;
+    }
+    .text-heading{
+        height:40px;
+        top:39%; left:9%;
+    }
+    .style-text{
+        font-size: 33px;
+        color:#fff;
+    }
+    .select-city{
+        top:49%; left:28%;
+    }
+    .select-loc{
+        width:342px; height:43px;
+        margin-bottom: 12px;
+        padding-left: 20px;
+    }
+    .search-res{
+        width:342px; height:43px;
+        padding-left:43px;
+    }
+    .icon-of-search{
+        margin:10px 0 0 10px;
+        font-size: 24px;
+        color:rgb(206, 206, 206);
+    }
+    .quick-para{
+        font-size: 25px;
+    }
+    .quick-head{
+        font-size: 35px;
+    }
+    .quick-searches{
+        padding-top:16px;
+        margin-left: 33px;
+    }
+    .containers{
+        width:94%;
+    }    
+    .items{
+        width:45%;
+        margin:11px 40px 23px 0;
+    }
+    .image{
+        width:163px; height:163px;
+    }
+    .head-color{
+        font-size:29px;
+    }
+    .para-color{
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width:993px) and (max-width:1199px)
+{
+    .logo{
+        width: 110px; height: 110px;
+        top:21%; left:44%;
+    }
+    .text{
+        font-size: 64px;
+        margin-top: 9px;
+    }
+    .text-heading{
+        height:45px;
+        top:40%; left:19%;
+    }
+    .style-text{
+        font-size: 38px;
+        color:#fff;
+    }
+    .select-city{
+        top:51%; left:19%;
+    }
+    .select-loc{
+        width:320px; height:43px;
+        margin-bottom: 12px;
+        padding-left: 20px;
+    }
+    .search-res{
+        width:400px; height:43px;
+        padding-left:43px;
+    }
+    .icon-of-search{
+        margin:10px 0 0 10px;
+        font-size: 24px;
+        color:rgb(206, 206, 206);
+    }
+    .quick-para{
+        font-size: 25px;
+    }
+    .quick-head{
+        font-size: 35px;
+    }
+    .quick-searches{
+        padding-top:16px;
+        margin-left: 33px;
+    }
+    .containers{
+        width:94%;
+    }    
+    .items{
+        width:45%;
+        margin:11px 40px 23px 0;
+    }
+    .image{
+        width:170px;  height:170px;
+    }
+    .head-color{
+        font-size:29px;
+    }
+    .para-color{
+        font-size: 18px;
+    }
+}

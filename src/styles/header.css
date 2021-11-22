@@ -1,0 +1,114 @@
+.header{
+    background-color: #ce0505;
+    height:65px;
+    padding:5px 0;
+}
+.brand{
+    background-color: #fff;
+    color:#eb2929;
+    width:56px;
+    height:56px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 44px;
+    margin:0 0 2px 40px;    
+    border-radius: 50%;
+    float:left;
+    line-height: 1.2;
+}
+.links{
+    float:right;
+    margin:5px 27px 0 0;
+}
+.login{
+    display:inline-block;
+    margin:0 20px 2px 0;
+    font-size: 18px;
+    color:#fff;
+    text-decoration: none;
+}
+.create-an-account{
+    border:1px solid #fff;
+    display: inline-block;
+    font-size: 18px;
+    padding:7px;
+    text-align: center;
+    color:#fff;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:416px)
+{
+    .header{
+        height:60px;
+        padding: 7px 0;
+    }
+    .brand{
+        width:50px;
+        height:50px;
+        font-size: 32px;
+        margin:0 0 2px 15px; 
+        line-height: 1.53;   
+    }
+    .links{
+        margin:4px 14px 0 0;
+    }
+    .login{
+        margin:0 20px 2px 0;
+        font-size: 16px;
+    }
+    .create-an-account{
+        font-size: 16px;
+        padding:7px;
+    }
+}
+
+@media only screen and (min-width:417px) and (max-width:616px)
+{
+    .header{
+        height:60px;
+        padding: 0;
+    }
+    .brand{
+        width:50px;
+        height:50px;
+        font-size: 37px;
+        margin:5px 0 2px 20px;    
+    }
+    .links{
+        margin:10px 24px 0 0;
+    }
+    .login{
+        margin:0 20px 2px 0;
+        font-size: 19px;
+    }
+    .create-an-account{
+        font-size: 18px;
+        padding:7px;
+    }
+}
+
+@media only screen and (min-width:617px) and (max-width:785px) 
+{
+    .header{
+        height:65px;
+        padding: 0;
+    }
+    .brand{
+        width: 57px;
+        height: 57px;
+        font-size: 43px;
+        margin: 4px 0 4px 20px;    
+    }
+    .links{
+        margin:10px 24px 0 0;
+    }
+    .login{
+        margin:0 20px 2px 0;
+        font-size: 19px;
+    }
+    .create-an-account{
+        font-size: 18px;
+        padding:7px;
+    }
+}
