@@ -7,8 +7,8 @@ const port = 1080;
 const host = "localhost";
 
 const router = require("./router/index");
-const dburl = "mongodb+srv://zomato-users123:raman123@cluster0.vxh0v.mongodb.net/zomato?retryWrites=true&w=majority";
-// const dburl = "mongodb://127.0.0.1:27017/zomato";
+const dburl = "mongodb+srv://zomato123:xyz@cluster0.vxh0v.mongodb.net/zomato?retryWrites=true&w=majority";
+
 app.use(cors());
 app.options("*",cors());
 app.use(express.json());
